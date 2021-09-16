@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { FullScreenLayoutComponent } from './layout/full-screen-layout/full-screen-layout.component';
+import { DashLayoutComponent } from './layout/dash-layout/dash-layout.component';
 import { MyDashboardComponent } from './modules/my-dashboard/my-dashboard.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: FullScreenLayoutComponent,
+    component: DashLayoutComponent,
     children: [
       {
         path: 'dashboard',
